@@ -1,0 +1,28 @@
+{
+  "suppliers": [
+    {
+      "id": "1",
+      "name": "Urbano LTDA",
+      "cnpj": "29.566.920/0001-53",
+      "email": "sac@urbano.com.br"
+    },
+    {
+      "id": "2",
+      "name": "Tio João LTDA",
+      "cnpj": "95.585.982/0001-37",
+      "email": "sac@tiojoao.com.br"
+    },
+    {
+      "id": "3",
+      "name": "Guaraves LTDA",
+      "cnpj": "61.871.168/0001-67",
+      "email": "sac@guaraves.com.br"
+    },
+    {
+      "id": "4",
+      "name": "DikasDeMilhões",
+      "cnpj": "08.585.647/0001-34",
+      "email": "sac@dikas.com.br"
+    }
+  ]
+}

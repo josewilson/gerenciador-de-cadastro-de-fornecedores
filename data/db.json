@@ -48,5 +48,35 @@
       "price": 18.00,
       "supplierId": 3
     }
+  ], 
+
+  "costumers" : [
+
+    {
+      "id": 1,
+      "name": "João Silva 2",
+      "cpf": "123.123.123-12",
+      "email": "joao@gmail.com",
+      "zipcode": "55555-555",
+      "street": "Rua de Teste",
+      "number": "100",
+      "neighborhood": "Mangabeira",
+      "city": "João Pessoa",
+      "state": "Paraíba",
+      "country": "Brasil"
+    },
+    {
+      "id": 2,
+      "name": "Zezinho",
+      "cpf": "123123",
+      "email": "zezin@gmail.com",
+      "zipcode": "58079000",
+      "street": "Rua Josefa Miranda Freire",
+      "number": "105",
+      "neighborhood": "Jardim Oceania",
+      "city": "João Pessoa",
+      "state": "Paraíba",
+      "country": "Brasil"
+    }
   ]
 }

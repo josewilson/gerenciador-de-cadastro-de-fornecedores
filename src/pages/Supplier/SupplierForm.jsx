@@ -17,7 +17,7 @@ const SupplierForm = () => {
             })
             .catch(error => console.error('Erro ao buscar fornecedor', error))
         } else {
-            setSupplier({name: '', cnpj: '', email: ''})
+            setSupplier({})
         }
     },[id])
 

@@ -3,7 +3,6 @@ import axios from '../../api'
 import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faPenToSquare, faTrash, faPlus, faArrowsRotate, faEye } from '@fortawesome/free-solid-svg-icons';
-import SupplierForm from './SupplierForm';
 import { useNavigate } from 'react-router-dom'
 
 
@@ -62,7 +61,8 @@ const SupplierList = () => {
                           <td>{supplier.email}</td>
                           <td>
 						  
-                              <button className='btn btn-sm btn-warning mr-2 ml-2'>
+                              <button className='btn btn-sm btn-warning mr-2 ml-2' 
+                              onClick={() => navigate(`/editar-fornecedor/${supplier.id}`)}>
                                     <FontAwesomeIcon icon={faPenToSquare} /> Editar
                               </button>
 							  
@@ -71,7 +71,7 @@ const SupplierList = () => {
                                     <FontAwesomeIcon icon={faTrash} /> Excluir
                               </button>
                               <button onClick={() => getSupplier(supplier.id)} 
-                              className='btn btn-sm btn-details ml-2'>
+                              className='btn btn-sm btn-success ml-2'>
                                     <FontAwesomeIcon icon={faEye} /> Detalhes
 							  </button>	
                             

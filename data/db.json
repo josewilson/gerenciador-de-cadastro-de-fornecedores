@@ -1,5 +1,6 @@
 {
-  "suppliers": [
+  "suppliers" : [
+
     {
       "id": "1",
       "name": "Urbano LTDA",
@@ -21,8 +22,9 @@
     {
       "id": "4",
       "name": "DikasDeMilhões",
-      "cnpj": "08.585.647/0001-34",
+      "cnpj": "61.871.168/0002-80",
       "email": "sac@dikas.com.br"
     }
+
   ]
 }

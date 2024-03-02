@@ -16,6 +16,7 @@ const App = () => {
           <Route path="/" element={<SupplierList />} />
           <Route path="/add-fornecedor" element={<SupplierForm />}/>
           <Route path="/listar-fornecedores" element={<SupplierList />} />
+          <Route path="/editar-fornecedor/:id" element={<SupplierForm />} />
         </Routes>
       </div>
 

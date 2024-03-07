@@ -1,6 +1,5 @@
 {
-  "suppliers" : [
-
+  "suppliers": [
     {
       "id": 1,
       "name": "Urbano LTDA",
@@ -25,33 +24,28 @@
       "cnpj": "61.871.168/0002-80",
       "email": "sac@dikas.com.br"
     }
-
   ],
-
-  "products" : [
-
+  "products": [
     {
       "id": 1,
       "name": "arroz",
-      "price": 6.00,
+      "price": 6,
       "supplierId": 1
     },
     {
       "id": 2,
       "name": "feijão",
-      "price": 10.00,
+      "price": 10,
       "supplierId": 2
     },
     {
       "id": 3,
       "name": "frango",
-      "price": 18.00,
+      "price": 18,
       "supplierId": 3
     }
-  ], 
-
-  "costumers" : [
-
+  ],
+  "customers": [
     {
       "id": 1,
       "name": "João Silva 2",
@@ -77,6 +71,19 @@
       "city": "João Pessoa",
       "state": "Paraíba",
       "country": "Brasil"
+    },
+    {
+      "name": "José Wilson Alves de Souza",
+      "cpf": "812.583.994-15",
+      "email": "jwasouza73@gmail.com",
+      "zipcode": "58078-230",
+      "street": "Rua Psicóloga Simone Pereira Souto",
+      "number": "87",
+      "neighborhood": "Funcionários 2",
+      "city": "João Pessoa",
+      "state": "PB",
+      "country": "Brasil",
+      "id": 3
     }
   ]
 }

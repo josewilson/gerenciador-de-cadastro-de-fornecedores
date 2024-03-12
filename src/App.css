@@ -39,11 +39,13 @@ body {
 
   .table {
     width: 100%;
-    border-collapse: collapse;
+    height: 10%;
+    /* border-collapse: collapse; */
     margin-top: 20px;
   }
 
   .table th, table td {
+    width: auto;
     text-align: left;
     padding: 12px;
     border-bottom: 1px solid #ddd;

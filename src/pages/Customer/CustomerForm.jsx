@@ -1,6 +1,6 @@
 import axios from '../../api'
 import React, { useEffect, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom'
 
 const CustomerForm = () => {
 
@@ -50,7 +50,8 @@ const CustomerForm = () => {
         axios[method](url, customer)
             .then(() => {
                 alert(`Cliente ${id ? "atualizado" : "adicionado"} com sucesso.`)
-                navigate("/listar-clientes") //redireionar para pagina principal
+
+                navigate("/listar-clientes") //redirecionar para pagina principal
             })
             .catch(error => console.error("Ocorreu um erro ao obter um cliente: ", error))
     }
@@ -82,7 +83,7 @@ const CustomerForm = () => {
                 setCepLoading(false)
             })
             .catch(error => {
-                console.error(`Error ao buscar o cep do cliente ${customer.name}`, error)
+                console.error(`Error ao buscar o CEP do cliente ${customer.name}`, error)
                 setCepLoading(false)
             })
 
@@ -104,6 +105,7 @@ const CustomerForm = () => {
                     onChange={handleChange} required />
                 </div>
 
+                
                 <div className="form-group">
                     <label htmlFor="cpf">CPF do cliente</label>
                     <input type="text" 
@@ -193,7 +195,8 @@ const CustomerForm = () => {
                     onChange={handleChange} required />
                 </div>
 
-                <button type="submit" className={id ? "btn btn-warning" : "btn btn-success"}>{id ? 'Atualizar' : 'Adicionar'}</button>
+                <button type="submit" className={id ? "btn btn-warning" : "btn btn-success"}>
+                                                {id ? 'Atualizar' : 'Adicionar'}</button>
             </form>
         </div>
 

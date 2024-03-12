@@ -51,7 +51,7 @@
       "name": "João Silva 2",
       "cpf": "123.123.123-12",
       "email": "joao@gmail.com",
-      "zipcode": "55555-555",
+      "zipcode": "55555555",
       "street": "Rua de Teste",
       "number": "100",
       "neighborhood": "Mangabeira",
@@ -71,19 +71,6 @@
       "city": "João Pessoa",
       "state": "Paraíba",
       "country": "Brasil"
-    },
-    {
-      "name": "José Wilson Alves de Souza",
-      "cpf": "812.583.994-15",
-      "email": "jwasouza73@gmail.com",
-      "zipcode": "58078-230",
-      "street": "Rua Psicóloga Simone Pereira Souto",
-      "number": "87",
-      "neighborhood": "Funcionários 2",
-      "city": "João Pessoa",
-      "state": "PB",
-      "country": "Brasil",
-      "id": 3
     }
   ]
 }
